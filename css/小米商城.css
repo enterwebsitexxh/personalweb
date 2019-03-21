@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+/* nav style start */
+.nav-content{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.nav-package{
+    width: 1150px;
+    height: 100px;
+    position: absolute;
+    margin:auto;
+    left: 0;right: 0;bottom: 0;top: 0;
+    background:  url("https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png") no-repeat
+}
+/* .nav-link{
+    width:205px;
+    height: 100px;
+    margin-left: 375px;
+} */
+/* container style staet */
+.container-content{
+    width: 100%;
+    height: 600px;
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/553c5e503fc83138c76bd7c17c1434db.jpeg") no-repeat top center;
+    position:relative;
+    overflow:hidden;
+}
+/* container style end */
+/* longin page style start */
+a{
+    text-decoration: none;
+}
+.log-content{
+    float:right;
+    margin-top: 50px;
+    width:400px;
+    height: 560px;
+    text-align: center;
+    background:#fff;
+    position:absolute;
+    left: 920px;
+    top: -15px;
+    }
+input{
+    width:336px;
+    padding:8px;
+    outline: none;
+    height:30px;
+    border:1px solid #e0e0e0}
+.log-nav{
+    font-size: 24px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    }
+.log-nav span{
+    color:#333
+    }
+.log-nav-number{
+    color:#f56600 !important;
+    }
+.log-signin-number{
+margin-bottom: 15px;
+}
+.log-signin-password{
+    margin-bottom: 20px;
+    }
+.log-signin-sure input{
+    width:352px;
+    height:50px;
+    background:#f56600;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.log-service{
+    margin-top: -10px;
+    margin-bottom: 130px;
+    font-size: 14px;
+}
+.log-others{
+    width:352px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.log-others .log-others-style{
+    position:relative;
+margin-bottom:15px;
+}
+.log-others-style .left,.right{
+    position:absolute;
+    display: block;
+    width:125px;
+    height:1px;
+    background:#999;top:50%
+    }
+.right{
+    right:0
+    }
+.log-icon{
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    }
+.log-icon span{
+    display: inline-block;
+    position:absolute;
+    margin:auto;
+    width:18px;
+    height:18px;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    background:url("../images/小标签.png") no-repeat ;
+}
+.log-icon a{
+    position: relative;
+    display: inline-block;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.log-icon .qq{
+    background-position: -18px 0;
+    width:20px;
+    }
+.log-icon .weibo{
+    background-position: -37px 0;
+    width:20px;
+    }
+.log-icon .zhifubao{
+    background-position: -57px 0;
+    width:24px;
+}
+.log-icon .vx{
+    background-position: -84px 0;
+    width:24px;
+    }
+.icon-qq{
+    left: -50px;
+    background: #0288D1;
+}
+.icon-weibo{
+    left: -20px;
+    background: #D32F2F;
+}
+.icon-zhifubao{
+    left: 10px;
+    background: #00AAEE;
+}
+.icon-vx{
+    left: 40px;
+    background: #00D20D;
+}
+.nav-line{
+    margin: 0 30px 0 30px;
+
+}
+.log-service-line{
+    margin: 0 70px 0 30px;
+}
+.log-imglink{
+    width: 730px;
+    height: 540px;
+    margin-left: 380px;
+}
+.qr-log{
+    display: none;
+    margin-top: 100px;
+}
+.qr-log-qr{
+    margin-top: 20px;
+}
+.pr-log-sao{
+    color:#999;
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* longin page style start */
+/* bottom style start */
+.bottom-content{
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    text-align: center;
+}
+.bottom-content li{
+    display: inline;
+}
+.bottom-a{
+    color:#999;
+    text-decoration: none;
+    font-size: 14px;
+}
+.bottom-police{
+    display: block;
+    padding: 10px;
+    color:#999;
+    font-size: 14px;
+}
+.police-link{
+    color: #999;
+}
+/* bottom style end */

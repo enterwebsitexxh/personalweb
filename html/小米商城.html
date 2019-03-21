@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/小米商城.css">
+    <title>小米商城</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+</head>
+<body>
+    <!-- nav start -->
+    <div class="nav-content">
+        <div class="nav-package"></div>
+        <!-- <a href="https://www.mi.com/index.html">
+            <div class="nav-link"></div>
+        </a> -->
+    </div>
+    <!-- nav end -->
+    <!-- container start -->
+    <div class="container-content" >
+    <!-- container start -->
+   
+    <!-- longin page start -->
+        <div class="log-content">
+            <form>
+                <p class="log-nav">
+                    <span class="log-nav-number"> 账号登录</span>
+                    <span style="color:#e0e0e0" class="nav-line">|</span>
+                    <span class="log-nav-qr" style="color:rgb(122, 118, 118)">扫码登录</span>
+                </p>
+            </form>
+            <div class="choose">
+                <div class="id-log">
+                    <form>
+                        <p class="log-signin-number">
+                            <input type="text" placeholder="邮箱/手机号/小米账号"/>
+                        </p>
+                        <p class="log-signin-password">
+                            <input type="password" placeholder="密码"/>
+                        </p>
+                        <p class="log-signin-sure">
+                            <input type="submit" value="登录"/>
+                        </p>
+                    </form>
+                    <p class="log-service">
+                        <span style="color:#f56600" class="service-log">手机短信登录注册</span>
+                        <span class="log-service-line"></span>
+                        <span style="color:#999">立即注册</span>
+                        <span style="color:#999">|</span>
+                        <span style="color:#999">忘记密码?</span>
+                    </p>
+                    <div class="log-others" >
+                        <p class="log-others-style" style="color:#999">
+                            <span class="left" style="color:#999"></span>
+                            其他方式登录
+                            <span class="right" style="color:#999"></span>
+                        </p>
+                        <div class="log-icon">
+                            <a href="#" class="icon-qq"><span class="qq"></span></a>
+                            <a href="#" class="icon-weibo"><span  class="weibo"></span></a>
+                            <a href="#" class="icon-zhifubao "><span class="zhifubao"></span></a>
+                            <a href="#" class="icon-vx"><span class="vx"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+                <div class="qr-log">
+                    <img src="../images/qrcode.png" class="qr-log-qr">
+                    <p class="pr-log-sao">使用小米商城APP扫一扫</p>
+                    <p class="pr-log-setting">小米手机可打开「设置」>「小米帐号」扫码登录</p>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.mi.com/mi9/">
+            <div class="log-imglink"></div>
+        </a>
+    <!-- longin page end -->
+    </div>
+    <!-- container end -->
+    <!-- bottom start -->
+    <div class="bottom-content">
+        <ul bottom-label>
+            <li><a href="#" class="bottom-a">&nbsp简体&nbsp</a></li>
+            <li><a href="#" class="bottom-a">&nbsp|&nbsp</a></li>
+            <li><a href="#" class="bottom-a">&nbsp繁体&nbsp</a></li>
+            <li><a href="#" class="bottom-a">&nbsp|&nbsp</a></li>
+            <li><a href="#" class="bottom-a">&nbspEnglish&nbsp</a></li>
+            <li><a href="#" class="bottom-a">&nbsp|&nbsp</a></li>
+            <li><a href="#" class="bottom-a">&nbsp常见问题&nbsp</a></li>
+            <li><a href="#" class="bottom-a">&nbsp|&nbsp</a></li>
+            <li><a href="#" class="bottom-a">&nbsp隐私政策&nbsp</a></li>
+        </ul>
+        <p class="bottom-police">
+            小米公司版权所有-京ICP备10046444-
+            <img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png">
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134" class="police-link">京公网安备11010802020134号</a>
+            -京ICP证110507号
+        </p>
+    </div>
+    <!-- bottom end -->
+    <script>
+        $(".log-nav span").click(function(){
+            $(this).addClass("log-nav-number").siblings().removeClass("log-nav-number");
+            // 节点挂在choose下的div上 用账号登录二维码登录获取索引数组控制div显示
+            $(".choose>div").eq($(this).index()).show().siblings().hide()
+        })
+    </script>
+    <a href="../index.html">诗意生活</a>
+    <a href="个人网站.html">个人网站</a>
+    <a href="关于远大.html">关于远大</a>
+    <a href="地板评测.html">地板评测</a>
+    <a href="商城.html">商城</a>
+</body>
+</html>

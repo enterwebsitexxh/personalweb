@@ -1,0 +1,51 @@
+*{margin: 0;}
+.title{
+    color: white;
+    background-color: pink;
+    text-align: center;
+    line-height: 60px;
+}
+div{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a:hover{
+    color: rgb(197, 197, 197);
+    cursor:pointer
+}
+.a{
+   line-height:35px;
+}
+.b:hover{
+    color: pink;
+    cursor:pointer
+}
+.b{
+    margin-top: 5px;
+    line-height:25px;
+}
+.c:hover{
+    color: rgb(197, 197, 197);
+    cursor:pointer
+}
+.c{
+    line-height: 25px;
+}
+li:hover{
+    color: pink;
+    cursor:pointer
+}
+li{
+    margin-left: -20px;
+}
+ul{
+    line-height:25px;
+}
+dl:hover{
+    color: pink;
+    cursor:pointer
+}
+dl{
+    line-height: 25px;
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;padding: 0;
+}
+  .top{
+      /* 使内联元素和内联块元素不改变display居中 给父组元素设置 */
+      text-align: center;
+  }
+  .nav{
+      height: 50px;
+      width: 100%;
+      background-color: #A2DBF9;
+  }
+  .nav-warp{
+      /* 标题导航栏 放置a标签 */
+      height: 50px;
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto; 
+  }
+   /* 选中nav-wrap一级目录下的a标签 */
+   .nav-warp>a{
+       display: block;
+       /* 块标签先设置宽高 */
+       width: 100px;
+       height: 50px;
+       background: #01AEF0;
+       text-align: center;
+       line-height:50px;
+       color:#fff;
+       text-decoration: none;                
+   }
+   .contenta{
+       text-align: center;
+   }
+   .contentb{
+       width: 1200px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .bottom{
+    background: #A2DBF9;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 100px;
+}
+   .bottom a{
+       /* 设置两个值 第一个值改变top bottom 第二个值改变lift right */
+    margin:0 10px;
+    text-decoration: none;
+    color:#666;
+    display: inline-block;   
+   }
+   .bottoma>a{
+       margin-top: 10px;
+       margin-bottom: 10px;
+   }
+   .bottomb>a{
+       margin-bottom: 10px;
+   }
+   .contentb>p{
+       text-indent: 30px;
+       margin-top: 10px;
+       font-size: 14px;
+       color:#666;
+   }

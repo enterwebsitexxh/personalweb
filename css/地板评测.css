@@ -1,0 +1,62 @@
+*{
+    margin: 0;padding: 0;
+}
+.title{
+    height: 60px;
+    background: rgb(116, 208, 231) url(../images/家居logo.png) no-repeat center center
+}
+h1{
+    color: rgba(22, 14, 14, 0.603)
+}
+h5{
+    color: rgb(219, 210, 197)
+}
+.top1{
+    margin-left: -200px;
+    /* margin-right: auto;   */
+    text-align: center;
+    margin-top: 20px;
+}
+.top2{
+    /* 盒子边框 */
+    margin-left: -200px;
+    margin-right: 200px; 
+     /*元素水平居中  */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.contenta{
+    text-align: center;
+}
+.contentb p{
+    display:block;
+    width: 720px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    text-indent: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    color:#666;
+}
+.table1{
+    border-collapse: collapse;
+    width: 720px;
+    background-color: orange;
+}
+.table2{
+    border-collapse: collapse;
+    width: 720px;
+}
+.contentc{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.r{
+    text-align: center
+}
